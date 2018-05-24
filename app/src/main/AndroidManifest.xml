@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jia.rxjavaproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:label="RxJava整理与示例">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NormalUseActivity" />
+        <activity android:name=".CreateObservableActivity" />
+        <activity android:name=".CreateObserverActivity" />
+        <activity android:name=".SubscribeActivity" />
+        <activity android:name=".ActionToSubscriberActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".FlatMapActivity" />
+        <activity android:name=".FilterActivity" />
+        <activity android:name=".SchedulerActivity" />
+        <activity android:name=".DoActivity"></activity>
+    </application>
+
+</manifest>
