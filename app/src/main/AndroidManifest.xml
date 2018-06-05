@@ -26,7 +26,8 @@
         <activity android:name=".FlatMapActivity" />
         <activity android:name=".FilterActivity" />
         <activity android:name=".SchedulerActivity" />
-        <activity android:name=".DoActivity"></activity>
+        <activity android:name=".DoActivity"/>
+        <activity android:name=".GroupByActivity"/>
     </application>
 
 </manifest>
