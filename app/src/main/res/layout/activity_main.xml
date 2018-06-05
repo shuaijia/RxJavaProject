@@ -13,103 +13,146 @@
         <TextView
             android:id="@+id/tv_base"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="RxJava基础使用"
-            android:gravity="center"
-            android:textColor="#fff"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="3dp"
             android:background="@color/colorAccent"
-            android:layout_margin="12dp" />
+            android:gravity="center"
+            android:text="RxJava基础使用"
+            android:textColor="#fff" />
 
         <TextView
             android:id="@+id/tv_create_observable"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:gravity="center"
-            android:textColor="#fff"
-            android:text="Observable的创建"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
             android:background="@color/colorAccent"
-            android:layout_margin="12dp" />
+            android:gravity="center"
+            android:text="Observable的创建"
+            android:textColor="#fff" />
 
         <TextView
             android:id="@+id/tv_create_observer"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:gravity="center"
-            android:textColor="#fff"
-            android:text="Observer的创建"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
             android:background="@color/colorAccent"
-            android:layout_margin="12dp" />
+            android:gravity="center"
+            android:text="Observer的创建"
+            android:textColor="#fff" />
 
         <TextView
             android:id="@+id/tv_subscribe"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorAccent"
             android:gravity="center"
             android:text="订阅 (Observable与Subscriber的关联)"
-            android:textColor="#fff"
-            android:background="@color/colorAccent"
-            android:layout_margin="12dp" />
+            android:textColor="#fff" />
 
         <TextView
             android:id="@+id/tv_action_to_subscriber"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:gravity="center"
-            android:textColor="#fff"
-            android:text="Action 实现 Subscriber"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
             android:background="@color/colorAccent"
-            android:layout_margin="12dp" />
+            android:gravity="center"
+            android:text="Action 实现 Subscriber"
+            android:textColor="#fff" />
 
         <TextView
             android:id="@+id/tv_map"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:gravity="center"
-            android:textColor="#fff"
-            android:text="map操作符"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
             android:background="@color/colorAccent"
-            android:layout_margin="12dp" />
+            android:gravity="center"
+            android:text="map操作符"
+            android:textColor="#fff" />
 
         <TextView
             android:id="@+id/tv_flat_map"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:gravity="center"
-            android:textColor="#fff"
-            android:text="flatMap操作符"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
             android:background="@color/colorAccent"
-            android:layout_margin="12dp" />
+            android:gravity="center"
+            android:text="flatMap操作符"
+            android:textColor="#fff" />
 
         <TextView
             android:id="@+id/tv_filter"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:gravity="center"
-            android:textColor="#fff"
-            android:text="过滤操作符"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
             android:background="@color/colorAccent"
-            android:layout_margin="12dp" />
+            android:gravity="center"
+            android:text="过滤操作符"
+            android:textColor="#fff" />
 
         <TextView
             android:id="@+id/tv_do"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:gravity="center"
-            android:textColor="#fff"
-            android:text="do系列"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
             android:background="@color/colorAccent"
-            android:layout_margin="12dp" />
+            android:gravity="center"
+            android:text="do系列"
+            android:textColor="#fff" />
+
+
+        <TextView
+            android:id="@+id/tv_group_by"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="groupBy操作符"
+            android:textColor="#fff" />
 
         <TextView
             android:id="@+id/tv_scheduler"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:gravity="center"
-            android:textColor="#fff"
-            android:text="Scheduler线程控制"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
             android:background="@color/colorAccent"
-            android:layout_margin="12dp" />
+            android:gravity="center"
+            android:text="Scheduler线程控制"
+            android:textColor="#fff" />
     </LinearLayout>
-
 
 </ScrollView>
