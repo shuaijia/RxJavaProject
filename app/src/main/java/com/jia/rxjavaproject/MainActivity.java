@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView tv_flat_map;
     private TextView tv_filter;
     private TextView tv_do;
+    private TextView tv_group_by;
     private TextView tv_scheduler;
 
     @Override
@@ -85,6 +86,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv_flat_map = findViewById(R.id.tv_flat_map);
         tv_filter = findViewById(R.id.tv_filter);
         tv_do = findViewById(R.id.tv_do);
+        tv_group_by = findViewById(R.id.tv_group_by);
         tv_scheduler = findViewById(R.id.tv_scheduler);
 
         tv_base.setOnClickListener(this);
@@ -96,6 +98,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv_flat_map.setOnClickListener(this);
         tv_filter.setOnClickListener(this);
         tv_do.setOnClickListener(this);
+        tv_group_by.setOnClickListener(this);
         tv_scheduler.setOnClickListener(this);
     }
 
@@ -145,6 +148,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.tv_do:
 
                 startActivity(new Intent(this, DoActivity.class));
+
+                break;
+             case R.id.tv_group_by:
+
+                startActivity(new Intent(this, GroupByActivity.class));
 
                 break;
             case R.id.tv_scheduler:
